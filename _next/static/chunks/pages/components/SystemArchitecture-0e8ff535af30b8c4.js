@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[945],{3072:(_,e,n)=>{(window.__NEXT_P=window.__NEXT_P||[]).push(["/components/SystemArchitecture",function(){return n(1869)}])}},_=>{var e=e=>_(_.s=e);_.O(0,[563,680,335,636,593,792],()=>e(3072)),_N_E=_.O()}]);
