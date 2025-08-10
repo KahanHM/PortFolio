@@ -69,7 +69,7 @@ export default function HeroSection() {
         id="hero"
         className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white px-4 pt-20"
       >
-        <div className="absolute inset-0 bg-[url('/PortFolio/grid.svg')] bg-center opacity-5 pointer-events-none" />
+        <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-5 pointer-events-none" />
         <div className="relative z-10 max-w-5xl w-full px-8 py-12 bg-white/5 border border-white/10 rounded-3xl shadow-[0_8px_32px_0_rgba(0,0,0,0.3)] backdrop-blur-lg">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -79,7 +79,7 @@ export default function HeroSection() {
           >
             <div className="flex-shrink-0 w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-[#38bdf8] shadow-[0_0_25px_rgba(56,189,248,0.4)]">
               <Image
-                src="/PortFolio/profile-pic.png"
+                src="/profile-pic.png"
                 alt="Kahan HM"
                 width={208}
                 height={208}
