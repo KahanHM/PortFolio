@@ -10,9 +10,8 @@ It showcases my hands-on DevOps experience, automation projects, cloud solutions
 
 - **Framework**: [Next.js](https://nextjs.org/) (Static Export)
 - **Styling**: Tailwind CSS
-- **Hosting**: GitHub Pages (via `gh-pages` branch)
 - **Custom Domain**: `kahan.cloud`
-- **CI/CD**: Manual deploy via npm script (can be extended with GitHub Actions)
+- **CI/CD**: deploy  with GitHub Actions
 
 ---
 
