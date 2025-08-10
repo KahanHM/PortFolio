@@ -1,8 +1,17 @@
-/** @type {import('next').NextConfig} */
+/**
+ * @type {import('next').NextConfig}
+ */
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig = {
-  output: 'export', // needed for `next export`
-  images: { unoptimized: true }, // GitHub Pages doesn't support next/image optimization
+  output: 'export',
+  basePath: isProd ? '/PortFolio' : '',
+  images: {
+    unoptimized: true,
+  },
   trailingSlash: true,
+  assetPrefix: isProd ? '/PortFolio/' : '',
+ 
 };
 
 module.exports = nextConfig;
