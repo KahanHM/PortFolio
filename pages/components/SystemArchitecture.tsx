@@ -19,6 +19,20 @@ export default function SystemArchitecture() {
 				<div className="grid grid-cols-1 gap-10">
 					{[
 						{
+  title: 'Secure Linux Servers with SSH Hardening and Fail2Ban',
+  description:
+    'Implemented multi-layered security on Linux servers using SSH key-based authentication, Fail2Ban, UFW, and non-default SSH ports to protect against brute-force and automated attacks.',
+  details: [
+    'Configured SSH key-based authentication (RSA 4096-bit) and disabled password logins',
+    'Changed default SSH port and blocked unused ports with UFW firewall',
+    'Installed and configured Fail2Ban for dynamic IP banning on repeated failed logins',
+    'Created custom jail configuration in /etc/fail2ban/jail.d for modular management',
+    'Reduced failed login attempts by over 95% through layered security approach',
+  ],
+  tech: ['Linux', 'SSH', 'Fail2Ban', 'UFW', 'Cybersecurity'],
+  link: 'https://www.linkedin.com/pulse/how-secure-linux-servers-ssh-hardening-fail2ban-kahan-hm-kdzpc/?trackingId=dmv9rHWrxBtzpCD63t60UA%3D%3D
+}
+						,{
 							title: 'Spring PetClinic – Helm-Powered Deployment on GKE',
 							description:
 								'Deployed the Spring PetClinic app on Google Kubernetes Engine using Helm charts to enable scalable and repeatable deployments.',
