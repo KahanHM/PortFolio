@@ -30,9 +30,9 @@ export default function SystemArchitecture() {
     'Reduced failed login attempts by over 95% through layered security approach',
   ],
   tech: ['Linux', 'SSH', 'Fail2Ban', 'UFW', 'Cybersecurity'],
-  link: 'https://www.linkedin.com/pulse/how-secure-linux-servers-ssh-hardening-fail2ban-kahan-hm-kdzpc/?trackingId=dmv9rHWrxBtzpCD63t60UA%3D%3D
-}
-						,{
+  link: 'https://kahan.site/projects/linux-ssh-hardening',
+},
+						{
 							title: 'Spring PetClinic – Helm-Powered Deployment on GKE',
 							description:
 								'Deployed the Spring PetClinic app on Google Kubernetes Engine using Helm charts to enable scalable and repeatable deployments.',
