@@ -79,7 +79,7 @@ export default function HeroSection() {
           >
             <div className="flex-shrink-0 w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-[#38bdf8] shadow-[0_0_25px_rgba(56,189,248,0.4)]">
               <Image
-                src="/profile-pic.png"
+                src="/profile-pic.webp"
                 alt="Kahan HM"
                 width={208}
                 height={208}
